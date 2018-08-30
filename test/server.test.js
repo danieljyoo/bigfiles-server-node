@@ -12,7 +12,8 @@ describe('Multipart Upload', () => {
       key: TESTKEY,
       status: 'INITIATED',
       id: expect.anything(),
-      aws_upload_id: expect.anything()
+      aws_upload_id: expect.anything(),
+      content_type: TESTMTYPE
     })
     var uploadid = startRes.id
     var deleteRes = await bigfiles.cancel(uploadid)

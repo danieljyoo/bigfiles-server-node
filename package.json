@@ -1,7 +1,7 @@
 {
   "name": "bigfiles-server-node",
-  "version": "0.0.1",
-  "description": "Javascript server library for bigfiles.io",
+  "version": "0.0.3",
+  "description": "Javascript server library for bigfiles.io.",
   "main": "index.js",
   "scripts": {
     "test": "jest"
